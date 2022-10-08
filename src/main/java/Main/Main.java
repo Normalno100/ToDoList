@@ -8,7 +8,7 @@ public class Main {
     {
         // Создание каркаса
         JFrame frame = new JFrame();
-        frame.setSize(900, 600);
+        frame.setSize(800, 600);
         frame.add(new MainForm().getMainPanel());
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
